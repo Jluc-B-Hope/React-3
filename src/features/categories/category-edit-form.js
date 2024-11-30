@@ -29,7 +29,7 @@ const CategoryEditFormComponent = ({ form, submitForm }) => (
         </Form.Group>
 
     <Button variant="primary" type="submit" className="mt-2 float-right" onClick={submitForm}>
-        Save category
+        Сохранить категорию
         </Button>
     </Form >
 )

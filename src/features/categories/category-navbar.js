@@ -19,9 +19,9 @@ export default class CategoryNavbarComponent extends React.Component {
                 <Container>
                     <Navbar.Brand href={routes.details(this.props.category.id)}>{this.props.category.name}</Navbar.Brand>
                     <Nav className="mr-auto">
-                        <Nav.Link as={Link} to={routes.details(this.props.category.id)}>Details</Nav.Link>
+                        <Nav.Link as={Link} to={routes.details(this.props.category.id)}>Детали</Nav.Link>
                         <PermissionContainer permission={permissions.category.edit}>
-                            <Nav.Link as={Link} to={routes.edit(this.props.category.id)}>Edit</Nav.Link>
+                            <Nav.Link as={Link} to={routes.edit(this.props.category.id)}>Настройки</Nav.Link>
                         </PermissionContainer>
                     </Nav>
                 </Container>

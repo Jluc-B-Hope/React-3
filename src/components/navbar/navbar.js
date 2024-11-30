@@ -13,8 +13,8 @@ class NavbarComponent extends React.Component {
                 <Container className="pr-0">
                     <Navbar.Brand href="#home">React</Navbar.Brand>
                     <Nav className="mr-auto">
-                        <Nav.Link as={Link} to="/categories">Categories</Nav.Link>
-                        <Nav.Link as={Link} to="/other">Other</Nav.Link>
+                        <Nav.Link as={Link} to="/categories">Категории</Nav.Link>
+                        <Nav.Link as={Link} to="/other">Остальное</Nav.Link>
                     </Nav>
                     <Nav style={{ marginRight: '10px' }}>
                         <BasketIcon />

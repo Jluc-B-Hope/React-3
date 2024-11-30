@@ -18,7 +18,7 @@ class CategoriesListComponent extends React.Component {
                     }
                 </div>
                 <PermissionContainer permission={permission.category.add}>
-                    <Button as={Link} variant="primary" to={routes.create} className="mb-2 float-right">Add category</Button>
+                    <Button as={Link} variant="primary" to={routes.create} className="mb-2 float-right">Добавить Категорию</Button>
                 </PermissionContainer>
             </>
         )

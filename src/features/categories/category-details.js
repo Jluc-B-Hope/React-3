@@ -23,7 +23,7 @@ class CategoryComponent extends React.Component {
         return (
             <>
                 <PermissionContainer permission={permission.product.add}>
-                    <Button as={Link} variant="primary" to={productRoutes.create(this.props.id)} className="mb-2 float-right">Add product</Button>
+                    <Button as={Link} variant="primary" to={productRoutes.create(this.props.id)} className="mb-2 float-right">Добавить продукт</Button>
                 </PermissionContainer>
                 <div className="clearfix"></div>
                 <Spinner isLoading={this.props.isLoading} />

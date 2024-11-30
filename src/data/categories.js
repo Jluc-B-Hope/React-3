@@ -1,14 +1,14 @@
 export default [
     {
         id: 1,
-        name: "Category A",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada, dui sed.",
+        name: "Asus",
+        description: "Продукция ASUS. Ноутбуки, готовые сборки, компоненты, периферия.",
         colour: "#CF0D0D"
     },    
     {
         id: 2,
-        name: "Category B",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada, dui sed.",
+        name: "Lenovo",
+        description: "Продукция Lenovo. Ноутбуки, готовые сборки, компоненты, периферия.",
         colour: "#178F07"
     }
 ]
